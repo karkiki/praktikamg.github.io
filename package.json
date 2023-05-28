@@ -1,0 +1,45 @@
+{
+  "name": "mg",
+  "version": "1.0.0",
+  "description": "магазин",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/karkiki/mg.git)"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "scss",
+    "css"
+  ],
+  "author": "Larina Ksenia",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery-form-styler": "^2.0.2",
+    "jquery.formstyler-modern": "^2.1.6",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "rateyo": "^3.0.0-alpha.2",
+    "sass": "^1.62.1",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "cssmin": "^0.4.3",
+    "del": "^4.1.1",
+    "rateyo": "^3.0.0-alpha.2"
+  }
+}

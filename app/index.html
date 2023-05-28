@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MG</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+      <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs/min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="header__top">
+            <div class="container">
+              <div class="header__top-inner">
+                <div class="header__box--left">
+                  <div class="header__logo">
+                    <a href="#">
+                      <span>MG</span>Clothes
+                    </a>
+                  </div>
+                  <div class="header__menu">
+                    <ul>
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Обратная связь</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="header__box--right">
+                  <div class="header__text">
+                    <a class="header__phone menu-item" href="tel:89997759321"
+                      >+7 (495) 126-53-27</a
+                    >
+                    <a class="header__delivery delivery menu-item" href="#"
+                      >Доставка по всей России</a
+                    >
+                    <a class="close" href="#"></a>
+                  </div>
+
+                  <div class="header__search-form">
+                    <form>
+                      <input type="text" placeholder="Поиск" />
+                    </form>
+                  </div>
+
+                  <div class="header__btn">
+                    <a
+                      class="header__btn-menu icon-search"
+                      href="#"
+                      id="search"
+                    ></a>
+                    <a
+                      class="header__btn-menu icon-user"
+                      href="#"
+                      id="search"
+                    ></a>
+                    <a
+                      class="header__btn-menu icon-shopping-cart"
+                      href="#"
+                      id="search"
+                    ></a>
+                    <div class="header__btn-menu">
+                      <div class="hamburger">
+                        <div class="hamburger__span one" id="one"></div>
+                        <div class="hamburger__span two" id="two"></div>
+                        <div class="hamburger__span three" id="three"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="categories">
+          <div class="container">
+            <div class="categories__inner categories__menu">
+              <div class="categories__inner--left">
+                <ul class="categories__menu-list">
+
+                  <li>
+                    <a href="#">
+                      Верхняя одежда
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Бомберы</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Жилеты</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Косухи</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Пальто</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Тренчи</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">
+                      Штаны
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Джинсы</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Классические брюки</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Кожанные брюки</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Спортивные штаны</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      Джемперы
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Пуловеры</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Свитеры</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Толстовки</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Футболки</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      Пиджаки и костюмы
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Костюм с брюками</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Костюм с шортами</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Костюм с юбкой</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Пиджаки</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      Аксессуары
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Очки</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Украшения</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Сумки</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      Обувь
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Ботильоны</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Туфли</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Сапоги</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Кроссовки</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="categories__inner--right">
+                <ul class="categories__menu-list">
+
+                  <li>
+                    <a href="#">
+                      Коллекции
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Casual</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Спорт</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Классика</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      Скидки
+                      <ul class="categories__inner-submenu categories__submenu">
+                        <div class="categories__submenu-items">
+                          <li class="categories__submenu-item">
+                            <a href="#">Распродажа</a>
+                          </li>
+                          <li class="categories__submenu-item">
+                            <a href="#">Акции</a>
+                          </li>
+                        </div>
+                      </ul>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="slider">
+          <div class="container">
+            <div class="slider__inner">
+
+              <div class="slider__item">
+                <div class="slider__item-img img" style="background-image: url(images/slider1.jpeg);"></div>
+                <div class="slider__item-info">
+                  <div class="slider__suptitle">Выгодное предложение</div>
+                 <div class="slider__title">Вторая пара джинс -15%</div>
+                 <a class="slider__btn" href="#">Более подробная информация</a>
+                </div>
+                <div class="slider__item-dots">
+                  <div class="slider__item-dots--left">
+                    <div class="slider__item-dots__total">4</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="slider__item-img img" style="background-image: url(images/slider2.jpeg);"></div>
+                <div class="slider__item-info">
+                  <div class="slider__suptitle">Sale</div>
+                 <div class="slider__title">-15% на солнцезащитные очки</div>
+                 <a class="slider__btn" href="#">Более подробная информация</a>
+                </div>
+                <div class="slider__item-dots">
+                  <div class="slider__item-dots--left">
+                    <div class="slider__item-dots__total">4</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="slider__item-img img" style="background-image: url(images/slider3.jpeg);"></div>
+                <div class="slider__item-info">
+                  <div class="slider__suptitle">Цены ниже</div>
+                 <div class="slider__title">Любая пара сапог до 7000₽</div>
+                 <a class="slider__btn" href="#">Более подробная информация</a>
+                </div>
+                <div class="slider__item-dots">
+                  <div class="slider__item-dots--left">
+                    <div class="slider__item-dots__total">4</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="slider__item-img img" style="background-image: url(images/slider4.jpeg);"></div>
+                <div class="slider__item-info">
+                  <div class="slider__suptitle">Постоянным покупателям</div>
+                 <div class="slider__title">-10% по дисконтной карте</div>
+                 <a class="slider__btn" href="#">Более подробная информация</a>
+                </div>
+                <div class="slider__item-dots">
+                  <div class="slider__item-dots--left">
+                    <div class="slider__item-dots__total">4</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="sales-leaders" >
+          <div class="container">
+            <div class="sales-leaders__title title">Лидеры продаж</div>
+            <div class="sales-leaders__subtitle">Популярные модели из всех категорий</div>
+            <div class="sales-leaders__items " id="boxs">
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-1.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Брюки</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">4350₽</div>
+                    <div class="sales-leaders__price--old">5000₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-2.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Пиджак</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">3045₽</div>
+                    <div class="sales-leaders__price--old">3500₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-3.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Тренч</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">6525₽</div>
+                    <div class="sales-leaders__price--old">7500₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-4.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Брюки</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">4524₽</div>
+                    <div class="sales-leaders__price--old">5200₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-5.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Кожанные брюки</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">4089₽</div>
+                    <div class="sales-leaders__price--old">4700₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-6.jpg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Тренч</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">6960₽</div>
+                    <div class="sales-leaders__price--old">8000₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-7.jpg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Джинсы</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">2175₽</div>
+                    <div class="sales-leaders__price--old">2500₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sales-leaders__item box">
+                <div class="sales-leaders__inner">
+                  <div class="sales-leaders__discount">
+                    sale<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="sales-leaders__images">
+                    <a href="#"><img src="images/sales-leaders-8.jpeg" alt="sales leaders images"></a>
+                  </div>
+                  <div class="sales-leaders__description"> Свитер</div>
+                  <div class="sales-leaders__price">
+                    <div class="sales-leaders__price--new">1740₽</div>
+                    <div class="sales-leaders__price--old">2000₽</div>
+                  </div>
+                  <div class="sales-leaders__hidden">
+                    <div class="sales-leaders__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="sales-leaders__text">Купить</div>
+                        <div class="sales-leaders__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="sales-leaders__loadMore" id="loadMore"> Загрузить больше товаров</div>
+
+          </div>
+        </section>
+
+        <section class="collections">
+          <div class="container">
+            <div class="collections_mainTitle title">Летняя коллекция</div>
+            <div class="collections__inner">
+
+              <div class="collections__item">
+                <div class="collections__item-wrapper">
+                  <div class="collections__item-left">
+                    <div class="collections__item-left__img img"
+                     style="background-image: url(images/collection-slider-1.jpeg);"></div>          
+                  </div>
+                  <div class="collections__item-right">
+                    <div class="collections__item-right__img">
+                      <img src="images/collection-slider-right-1.jpeg" alt="collection slider images">
+                    </div>
+                    <div class="collections__item-right__inner">
+                      <div class="collections__item-right__title">Рубашка</div>
+                      <div class="collections__item-right__price--new">2500₽</div>
+                    </div>
+                    <div class="collections__item-right__bottom">
+                      <a class="button-buy" href="#"></a>
+                      <div class="button-buy__icon icon-shopping-cart"></div>
+                      <div class="button-buy__text">В избранное</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+                    <div class="collections__item">
+                      <div class="collections__item-wrapper">
+                        <div class="collections__item-left">
+                          <div class="collections__item-left__img img"
+                           style="background-image: url(images/collection-slider-2.jpeg);"></div>          
+                        </div>
+                        <div class="collections__item-right">
+                          <div class="collections__item-right__img">
+                            <img src="images/collection-slider-right-2.jpeg" alt="collection slider images">
+                          </div>
+                          <div class="collections__item-right__inner">
+                            <div class="collections__item-right__title">Шорты</div>
+                            <div class="collections__item-right__price--new">2700₽</div>
+                          </div>
+                          <div class="collections__item-right__bottom">
+                            <a class="button-buy" href="#"></a>
+                            <div class="button-buy__icon icon-shopping-cart"></div>
+                            <div class="button-buy__text">В избранное</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="collections__item">
+                      <div class="collections__item-wrapper">
+                        <div class="collections__item-left">
+                          <div class="collections__item-left__img img"
+                           style="background-image: url(images/collection-slider-3.jpeg);"></div>          
+                        </div>
+                        <div class="collections__item-right">
+                          <div class="collections__item-right__img">
+                            <img src="images/collection-slider-right-3.jpeg" alt="collection slider images">
+                          </div>
+                          <div class="collections__item-right__inner">
+                            <div class="collections__item-right__title">Джинсы</div>
+                            <div class="collections__item-right__price--new">3200₽</div>
+                          </div>
+                          <div class="collections__item-right__bottom">
+                            <a class="button-buy" href="#"></a>
+                            <div class="button-buy__icon icon-shopping-cart"></div>
+                            <div class="button-buy__text">В избранное</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="collections__item">
+                      <div class="collections__item-wrapper">
+                        <div class="collections__item-left">
+                          <div class="collections__item-left__img img"
+                           style="background-image: url(images/collection-slider-4.jpeg);"></div>          
+                        </div>
+                        <div class="collections__item-right">
+                          <div class="collections__item-right__img">
+                            <img src="images/collection-slider-right-4.jpeg" alt="collection slider images">
+                          </div>
+                          <div class="collections__item-right__inner">
+                            <div class="collections__item-right__title">Штаны</div>
+                            <div class="collections__item-right__price--new">3500₽</div>
+                          </div>
+                          <div class="collections__item-right__bottom">
+                            <a class="button-buy" href="#"></a>
+                            <div class="button-buy__icon icon-shopping-cart"></div>
+                            <div class="button-buy__text">В избранное</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="new-items" >
+          <div class="container">
+            <div class="new-items__title title">Новинки</div>
+            <div class="new-items__subtitle">Новые модели из всех категорий</div>
+            <div class="new-items__items " id="newBoxs">
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 1.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Рубашка</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">3400₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 2.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Брюки</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">4650₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 3.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Тренч</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">7300₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 4.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Джинсы</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">3800₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 5.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Брюки</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">4800₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 6.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Пальто</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">9800₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 7.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Пиджак</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">4300₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-items__item newBox">
+                <div class="new-items__inner">
+                  <div class="new-items__discount">
+                    <span>new
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                  </div>
+                  <div class="new-items__images">
+                    <a href="#"><img src="images/new-items 8.jpeg" alt="new-items images"></a>
+                  </div>
+                  <div class="new-items__description"> Свитер</div>
+                  <div class="new-items__price">
+                    <div class="new-items__price--new">2200₽</div>
+                  </div>
+                  <div class="new-items__hidden">
+                    <div class="new-items__bottom">
+                      <a class="bottom-buy" href="#">
+                        <div class="new-items__text">Купить</div>
+                        <div class="new-items__icon icon-shopping-cart"></div>
+                      </a>
+                      <a class="new-items__buy" href="#">Купить в один клик</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="new-items__loadMore" id="newItemsloadMore"> Загрузить больше товаров</div>
+
+          </div>
+
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__inner-title title">MG Clothes</div>
+
+              <div class="footer__items">
+
+                <div class="footer__item">
+                   <div class="footer__item-title">Контакты</div>
+                      <ul class="footer__item-list">   
+                        <li><a href="tel:89997759321"></a>+ 7 (495) 126-53-27</li>
+                        <li><a href="#"></a>mgClothes@gmail.com</li>
+                      </ul>
+                   </div>
+             
+                  <div class="footer__item">
+                <div class="footer__item-title">Услуги</div>
+                <ul class="footer__item-list">
+                  <li><a href="#">Размеры одежды</a></li>
+                  <li><a href="#">Программа лояльности</a></li>
+                  <li><a href="#">Активация бонусной карты</a></li>
+                </ul>
+                 </div>
+            
+  
+                 <div class="footer__item">
+                <div class="footer__item-title">Онлайн покупки</div>
+                  <ul class="footer__item-list">
+                  <li><a href="#">Оплата</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Возврат</a></li>
+                </ul>
+                </div>
+            </div>
+
+            
+            <div class="footer__bottom">
+            <div class="footer__bottom-copyright">©2023 MG Clothes
+            </div>
+            <div class="footer__bottom-privacyPolicy">Политика конфиденциальности</div>
+            <div class="footer__bottom-termsOfUse">Условия использования</div>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
